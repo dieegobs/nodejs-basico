@@ -1,8 +1,8 @@
 {
-  "name": "mycontacts",
+  "name": "nodejs-basico",
   "version": "1.0.0",
-  "description": "API to store contacts",
-  "main": "src/index.js",
+  "description": "",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -10,10 +10,14 @@
     "type": "git",
     "url": "git+https://github.com/dieegobs/nodejs-basico.git"
   },
+  "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/dieegobs/nodejs-basico/issues"
   },
-  "homepage": "https://github.com/dieegobs/nodejs-basico#readme"
+  "homepage": "https://github.com/dieegobs/nodejs-basico#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
 }
